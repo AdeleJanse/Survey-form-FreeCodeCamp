@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fork Me! Survey form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id= "title">User satisfaction survey form.</h1>
+    <div>
+    <p id= "description">You have recently used our online store to purchase a few items. We would love it if you could complete the below survey form. You appreciate your time and assistance in making your future experience better.</p>
+    </div>
+ <form action= "" id= "survey-form">
+   <div>
+   <label id="name-label"> Name </label>
+   </div>
+   <div>
+   <input id="name" type= "text" placeholder= "Enter your name here" required>
+   </div>
+   <div>
+    <label id="surname-label"> Surname </label>
+   </div>
+     <div>
+      
+   <input id="name" type= "text"  placeholder= "Enter your surname here" required>
+   </div>
+   
+   <div>
+   <label id="email-label"> Email </label> 
+   </div>
+   <div>
+   <input id="email" type= "email" class="form-control" placeholder= "Enter your email here" required>
+   </div>
+   <div>
+     <label id= "number-label" for= "number">How many times have you used our site?</label>
+   </div>
+   <div>
+   <input id= "number" type= "number" class= "form-control" min= "1" max="99" placeholder= "123">
+   </div>
+   <div>
+     <p>How happy are you with our product?</p>
+     <select id="dropdown" required>
+       <option>Please select one of the below</option>
+       <option>You rock !</option>
+       <option>There is room for improvement</option>
+       <option>Not really bothered</option>
+       <option>No offence, you suck</option>
+     </select>
+   </div>
+     <div>
+      <p>How likely are you to recommend our site?</p>
+   <label for= "recommendation">
+     <input type= "radio" value= "Definitely" name= "radio" checked>Definitely
+      </label>
+     
+    <label for= "recommendation">
+     <input type= "radio" value= "Maybe" name= "radio">Maybe
+     </label>
+      
+       <label for= "recommendation">
+     <input type= "radio" value= "Not at all" name= "radio">Not at all
+     </label>
+     </div>
+     
+ <div>
+      <p>Please tell us where we can improve by selecting all of the relevant boxes below</p>
+     </div>
+     
+     <div>
+      <label for="site-navigation"><input type= "checkbox" id="site-navigation" value= "improvement-needed">Site navigation</label>
+     </div>
+     
+     <div>
+      <label for="product-description"><input type= "checkbox" id="product-description" value= "improvement-needed">Product description</label>
+     </div>
+     
+     <div>
+      <label for= "delivery-time"><input type= "checkbox" id="delivery-time" value= "improvement-needed">Delivery time</label>
+     </div>
+     
+     <div>
+      <label for= "check-out"><input type= "checkbox" id= "check-out" value= "improvement-needed">Check out</label>
+     </div>
+     
+     <div>
+      <p>If you have any other suggestions, please use the below field:</p>
+     </div>
+     
+     <div>
+      <textarea id="suggestions" colunm= "20" row= "50" style= "width: 500px" placeholder= "Please enter suggestions here"> </textarea>
+     </div>
+     
+     <div>
+        <button type= "submit" id="submit">Click here to submit</button>
+     </div>
+    </form>
+    
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

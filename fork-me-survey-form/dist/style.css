@@ -1,0 +1,40 @@
+body {
+  background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+#title {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 40px;
+}
+
+label {
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 40px;
+}
+
+input {
+  margin-left: 40px;
+}
+
+select {
+  margin-left: 40px;
+}
+
+textarea {
+  margin-left: 40px;
+}
+
+button {
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 400px;
+  margin-top: 40px;
+}
